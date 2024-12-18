@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Liste des Comptes</h2>
+
+    <!-- Error Message -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+        {{ errorMessage }}
+    </div>
+
+    <!-- Table of Comptes -->
+    <table class="table table-bordered table-striped" *ngIf="comptes.length > 0">
+        <thead>
+            <tr>
+                <th>RIB</th>
+                <th>Nom du Client</th>
+                <th>Solde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let compte of comptes; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ compte.nomClient }}</td>
+                <td>{{ compte.solde }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Empty State -->
+    <div *ngIf="comptes.length === 0 && !errorMessage">
+        <p>Aucun compte trouvé.</p>
+    </div>
+</div>

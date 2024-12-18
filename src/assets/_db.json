@@ -1,0 +1,145 @@
+{
+  "accounts": [
+    {
+      "rib": "123456789",
+      "solde": 500.0,
+      "client": "John Doe"
+    },
+    {
+      "rib": "987654321",
+      "solde": 1000.0,
+      "client": "Jane Doe"
+    }
+  ],
+  "members": [
+    {
+      "id": "12487",
+      "cin": "24555",
+      "name": "imen",
+      "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "type": "teacher",
+      "createdDate": "12/15/2020"
+    },
+    {
+      "id": "12488",
+      "cin": "24545",
+      "name": "heni",
+      "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "type": "etudiant",
+      "createdDate": "12/12/2020"
+    },
+    {
+      "id": "12489",
+      "cin": "24535",
+      "name": "imed",
+      "cv": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "type": "teacher",
+      "createdDate": "12/14/2020"
+    }
+  ],
+  "articles": [
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "imen",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "livres",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "animal",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "imen",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "livres",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "animal",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "imen",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "livres",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "animal",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "imen",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "livres",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "12487",
+      "type": "cv",
+      "titre": "animal",
+      "lien": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE",
+      "date": "2/15/2020",
+      "sourcepdf": "https://www.cdc.gov/polio/stop/pdf/stop-cv-format.pdf?fbclid=IwAR24RrjXFWasRbJf4KgcEjm6381BroplwUEYFLsdOI9alIvazyO10tRXOXE"
+    },
+    {
+      "id": "7146",
+      "titre": "kaso",
+      "type": "kardousu",
+      "lien": "oz",
+      "sourcepdf": "55"
+    }
+  ]
+}

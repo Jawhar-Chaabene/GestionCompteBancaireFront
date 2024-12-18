@@ -1,0 +1,34 @@
+<div class="container">
+    <h2>Ajouter un Compte</h2>
+    <form [formGroup]="accountForm" (ngSubmit)="onSubmit()">
+        <!-- Client Name -->
+        <div>
+            <label for="nomClient">Nom du Client:</label>
+            <input id="nomClient" formControlName="nomClient" type="text" />
+            <div *ngIf="accountForm.get('nomClient')?.invalid && accountForm.get('nomClient')?.touched">
+                Le nom du client est obligatoire.
+            </div>
+        </div>
+
+        <!-- RIB -->
+        <!-- <div>
+            <label for="rib">RIB:</label>
+            <input id="rib" formControlName="rib" type="text" />
+            <div *ngIf="accountForm.get('rib')?.invalid && accountForm.get('rib')?.touched">
+                Le RIB est obligatoire.
+            </div>
+        </div> -->
+
+        <!-- Solde -->
+        <div>
+            <label for="solde">Solde:</label>
+            <input id="solde" formControlName="solde" type="number" />
+            <div *ngIf="accountForm.get('solde')?.invalid && accountForm.get('solde')?.touched">
+                Le solde est obligatoire et doit être un nombre positif.
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" [disabled]="accountForm.invalid">Ajouter</button>
+    </form>
+</div>

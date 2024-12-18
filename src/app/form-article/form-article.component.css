@@ -1,0 +1,48 @@
+/* Style for the form */
+form {
+    width: 100%;
+    padding: 20px;
+    background-color: #f3f3f3;
+    /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow effect */
+}
+
+/* Style for the form fields */
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Style for the buttons */
+.mat-dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mat-raised-button {
+    border-radius: 30px;
+    /* Rounded corners */
+    padding: 12px 30px;
+    /* Padding */
+    font-size: 16px;
+    text-transform: uppercase;
+    /* Uppercase text */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.mat-raised-button.mat-primary {
+    background-color: #ff4081;
+    /* Pink */
+    color: #ffffff;
+    /* White text */
+}
+
+.mat-raised-button.mat-primary:hover {
+    background-color: #d81b60;
+    /* Darker pink on hover */
+}

@@ -1,0 +1,56 @@
+<mat-sidenav-container>
+
+    <!-- The side nav -->
+    <mat-sidenav #drawer fixedInViewport="true" mode="over" opened="false" style="width: 230px;">
+        <mat-toolbar color="primary" fxLayout fxLayoutGap="16px">
+            <mat-icon>school</mat-icon>
+            <span> Laboratoire </span>
+        </mat-toolbar>
+        <mat-nav-list>
+            <a mat-list-item routerLink="/list-comptes"><mat-icon>list-comptes</mat-icon><span> Liste des
+                    comptes</span></a>
+            <a mat-list-item routerLink="/ajouter-compte"><mat-icon>gradient</mat-icon><span> Ajouter compte </span></a>
+            <a mat-list-item routerLink="/events"><mat-icon>event_note</mat-icon><span> Events</span></a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <!-- EO: Side nav-->
+
+    <!-- Side nav content-->
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div fxFlex fxLayout fxLayoutAlign="start center">
+                <button type="button" aria-label="Toggle sidenav" class="toolbar-button" mat-icon-button
+                    (click)="drawer.toggle()">
+                    <mat-icon aria-label="Side nav toggle icon">menu</mat-icon><span> Lab</span>
+                </button>
+
+            </div>
+
+
+            <div fxFlex></div>
+
+            <div class="toolbar-separator"></div>
+
+            <button [matMenuTriggerFor]="userMenu" class="toolbar-button" mat-button
+                style="margin-left: 85%; margin-right: 5%;">
+
+            </button>
+
+            <mat-menu #userMenu="matMenu" [overlapTrigger]="false">
+
+
+
+            </mat-menu>
+        </mat-toolbar>
+
+        <div class="content mt-80 mx-16">
+            <br>
+
+            <router-outlet></router-outlet>
+
+        </div>
+
+    </mat-sidenav-content>
+    <!-- EO: Side nav content-->
+
+</mat-sidenav-container>
